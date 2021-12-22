@@ -11,12 +11,12 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
-
       {
         text: 'JavaScript博客',
         items: [
           { text: 'Github', link: 'https://github.com/codehzy' },
-          { text: '掘金', link: 'https://juejin.cn/user/1714893872178823' }
+          { text: '掘金', link: 'https://juejin.cn/user/1714893872178823' },
+          { text: 'TimeLine', link: '/timeline/', icon: 'reco-date' }
         ]
       }
     ],
@@ -32,8 +32,8 @@ module.exports = {
         path: '/handbook/vue-base',
         collapsable: false, //折叠
         children: [
-          { title: '条件类型', path: '/handbook/vue-base' },
-          { title: '泛型', path: '/handbook/vue-hooks' }
+          { title: 'Vue3基础', path: '/handbook/vue-base' },
+          { title: 'vue3Hooks', path: '/handbook/vue-hooks' }
         ]
       }
     ],
